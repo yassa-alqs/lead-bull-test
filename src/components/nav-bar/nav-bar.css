@@ -1,0 +1,45 @@
+
+.NavBar {
+  list-style-type: none; /* Remove default bullets */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Display list items horizontally */
+  /* justify-content: space-around; Align items to the right */
+  /* position: fixed; */
+  background: none;
+  width: 100%;
+}
+
+.NavBar ul {
+    margin: auto;
+}
+
+
+nav ul li {
+
+  display: inline; /* Align items horizontally */
+  margin-right: 20px;  /* Space between items */
+}
+
+.NavBar li:last-child {
+  margin-right: 0; /* Remove margin for the last item */
+}
+
+.NavBar a {
+  text-decoration: none; /* Remove underlines from links */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+}
+
+.NavBar img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.contact {
+ margin: auto;
+ 
+}
